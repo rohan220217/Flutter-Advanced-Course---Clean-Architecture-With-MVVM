@@ -3,6 +3,13 @@ import 'package:flutter/material.dart';
 class StringManager {
   static const String noRouteFound = "No Route Found";
   static const String skip = "Skip";
+  static const String username = "Username";
+  static const String usernameError = "Username is wrong";
+  static const String passwordError = "password is wrong";
+  static const String password = "Password";
+  static const String login = "Login";
+  static const String forgetPassword = "Forget password";
+  static const String registerText = "Not a member ? Sign up";
 
   // Onboarding screen
   static const String onBoardingTitle1 = "SEE THE BEST COURSE #1";

@@ -3,7 +3,7 @@ import 'package:msa_internship/data/network/failure.dart';
 import 'package:msa_internship/data/request/request.dart';
 import 'package:msa_internship/domain/model/model.dart';
 import 'package:msa_internship/domain/repository/repository.dart';
-import 'package:msa_internship/domain/usercase/base_usecase.dart';
+import 'package:msa_internship/domain/usecase/base_usecase.dart';
 
 class LoginUseCase implements BaseUseCase<LoginUseCaseInput, Authentication> {
   final Repository _repository;
