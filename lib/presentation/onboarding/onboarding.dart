@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:msa_internship/domain/model.dart';
+import 'package:msa_internship/domain/model/model.dart';
 import 'package:msa_internship/presentation/onboarding/onboarding_viewmodel.dart';
 import 'package:msa_internship/presentation/resources/color_manager.dart';
 import 'package:msa_internship/presentation/resources/routes_manager.dart';

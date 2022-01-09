@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:msa_internship/domain/model.dart';
+import 'package:msa_internship/domain/model/model.dart';
 import 'package:msa_internship/presentation/base/baseviewmodel.dart';
 import 'package:msa_internship/presentation/resources/assets_manager.dart';
 import 'package:msa_internship/presentation/resources/string_manager.dart';

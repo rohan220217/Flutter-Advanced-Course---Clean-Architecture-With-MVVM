@@ -1,7 +1,7 @@
 import 'package:msa_internship/app/constants.dart';
 import 'package:msa_internship/app/extensions.dart';
 import 'package:msa_internship/data/responses/responses.dart';
-import 'package:msa_internship/domain/model.dart';
+import 'package:msa_internship/domain/model/model.dart';
 
 // Customer mapper from data to domain
 extension CustomerResponseMapper on CustomerResponse? {
