@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:msa_internship/app/di.dart';
 import 'package:msa_internship/presentation/login/login_viewmodel.dart';
 import 'package:msa_internship/presentation/resources/assets_manager.dart';
 import 'package:msa_internship/presentation/resources/color_manager.dart';
@@ -15,7 +16,7 @@ class LoginView extends StatefulWidget {
 
 class _LoginViewState extends State<LoginView> {
   final LoginViewModel _viewModel =
-      LoginViewModel(null); // todo pass here login useCase
+      instance<LoginViewModel>(); // todo pass here login useCase
 
   final TextEditingController _userNameController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
