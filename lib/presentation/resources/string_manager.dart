@@ -10,6 +10,9 @@ class StringManager {
   static const String login = "Login";
   static const String forgetPassword = "Forget password";
   static const String registerText = "Not a member ? Sign up";
+  static const String loading = "Loading...";
+  static const String retry_again = "Retry again...";
+  static const String ok = "Ok";
 
   // Onboarding screen
   static const String onBoardingTitle1 = "SEE THE BEST COURSE #1";
